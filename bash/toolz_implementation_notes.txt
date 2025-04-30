@@ -1,0 +1,24 @@
+Implementation Approach:
+- Used modular design with one function per feature.
+- Used getopts for argument parsing and an interactive menu as a fallback.
+
+Design Decisions:
+- Color-coded output for better readability.
+- Included input validation and confirmation prompts for dangerous actions.
+- Used widely available Linux commands (ps, find, id, etc.).
+
+Structure:
+- Top: Color variables and help
+- Mid: Each feature in its own function
+- Bottom: Menu + getopts logic
+
+Challenges:
+- Managing `ps` sorting and readable output was tricky; used --sort option with aux.
+- Handling edge cases (e.g., missing user input) with defaults and checks.
+
+Examples:
+- ./toolz -f     # Guided search with find
+- ./toolz -s     # Show memory, disk, and process info
+- ./toolz -p     # View and kill top processes
+- ./toolz -u     # Check user sessions and info
+- ./toolz -h     # Help section
