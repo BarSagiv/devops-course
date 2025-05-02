@@ -11,7 +11,8 @@
     len(letters)
 ## How do you go to different places around the str?indexing=
     letters[2], letters[-1]
-## How do you cut?slicing= letters[2:6], letters[-5:-1], all:letters[20:], letters [1:15:2]
+## How do you cut?
+   slicing= letters[2:6], letters[-5:-1], all:letters[20:], letters [1:15:2]
     (((((((letters[start :till (not including): jumps])))))))
 
 
