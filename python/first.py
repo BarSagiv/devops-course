@@ -9,6 +9,8 @@ while a < 10:
 print(nums)
 
 
+
+# write a small program that prints the letters in the list lst1 one by one
 lst1 = ['a', 'b', 'c', 'd', 'e']
 for letter in lst1:
     print(letter)
