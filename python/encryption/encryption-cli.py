@@ -1,6 +1,6 @@
-# This is an encryption + decryption program.
+# this is an encryption + decryption program.
 
-# Functions:
+# functions:
 
 import random
 
