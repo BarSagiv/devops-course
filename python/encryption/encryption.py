@@ -6,7 +6,7 @@ import random
 
 # function that creates a and return a key (randomally created)
 def make_enc_key():
-    letters = 'abcdefghijklmnopqrstuvwxyz'
+    letters = 'abcdefghijklmnopqrstuvwxyz '
     shuffled = list(letters)
     random.shuffle(shuffled)
 
@@ -61,5 +61,5 @@ def test_all():
     decrypted_text = decrypt_text(encrypted_text, dec_key)
     print("Decrypted Text: ", decrypted_text)
 
-print("hello world!")
+
 test_all()
