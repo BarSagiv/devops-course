@@ -18,7 +18,7 @@ This project is a Python-based text encryption and decryption tool using a simpl
 
 This project was inspired by the famous *Dancing Men cipher* from Sherlock Holmes!
 
-![Dancing Men Cipher](dancingmen.gif)
+![dancingmen](https://github.com/user-attachments/assets/6012ee48-bdee-4f02-8cfd-d3c3ce43acd5)
 
 ---
 
@@ -28,7 +28,13 @@ This project was inspired by the famous *Dancing Men cipher* from Sherlock Holme
 
 Just Python – no external packages needed.
 
+![Screenshot 2025-06-19 221406](https://github.com/user-attachments/assets/aa3fd81c-19c8-424c-88a9-14e74c339eb8)
+
+
 ### Run the CLI
 
+You can run the CLI by executing [`encryption-cli.py`](encryption-cli.py):
+
 ```bash
-python main.py
+python encryption-cli.py
+python3 encryption-cli.py
